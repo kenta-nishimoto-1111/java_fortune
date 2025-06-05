@@ -10,7 +10,7 @@ public class SampleService {
     Random random = new Random();
     int num = random.nextInt(3);
 
-    String[] fortunes = {"大吉", "吉", "凶"};
+    String[] fortunes = {"大", "吉", "凶"};
     return fortunes[num];
   }
 }
